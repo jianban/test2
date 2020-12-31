@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="geit:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>geit</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="geit-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="geit:war exploded" />
+    </root>
+  </artifact>
+</component>
